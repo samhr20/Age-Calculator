@@ -32,7 +32,7 @@ calBtn.addEventListener('click', () => {
         resultDate = todayDate - inputDate;
     } else {
         resultMonth--; 
-        let daysInMonth = getDaysInMonth(inputYear, inputMonth - 1); ds
+        let daysInMonth = getDaysInMonth(inputYear, inputMonth - 1); 
         resultDate = daysInMonth + todayDate - inputDate;
     }
     
